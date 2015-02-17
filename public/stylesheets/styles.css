@@ -1,0 +1,73 @@
+body {
+  font-family: sans-serif;
+  color: #091521;
+  background-color: #fffefd;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+li.bean-list-item {
+  display: block;
+  float: left;
+  font-size: 3em;
+  background-color: #F8FBFC;
+  border: 1px solid #cce7f3;
+  margin-right: 5px;
+  margin-top: 5px;
+  border-radius: 6px;
+  padding: 6px 13px;
+}
+
+li.bean-list-item:hover {
+  background-color: white;
+  border-bottom: 1px solid #b0b9d1;
+  border-top: 1px solid #bcc5dd;
+  box-shadow: 0px 0px 17px rgba(90, 110, 120, 0.2);
+  -webkit-transition: box-shadow 0.3s;
+  -moz-transition: box-shadow 0.3s;
+  transition: box-shadow 0.3s;
+  cursor: pointer;
+}
+
+span.power-name {
+  font-style: italic;
+  font-weight: bold;
+  margin-right: 20px;
+  /* min-width: 200px; */
+}
+
+.bean-item-page {
+  text-align: center;
+}
+.bean-item-page .error {
+  color: red;
+  margin: 30px;
+}
+.bean-item-page .loading-element {
+  font-size: 2em;
+  margin: 20px;
+}
+
+.navigation {
+  padding: 10px;
+}
+.navigation a {
+  text-decoration: none;
+  color: #fbfbfb;
+}
+.navigation .navigation-item {
+  font-weight: bold;
+  display: inline;
+  font-size: 1.5em;
+  padding: 5px;
+  background-color: #9a9ea4;
+  -webkit-transition: 0.3s linear;
+  -moz-transition: 0.3s linear;
+  transition: 0.3s linear;
+}
+.navigation .navigation-item:hover {
+  background-color: #afb3b9;
+}
