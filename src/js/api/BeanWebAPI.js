@@ -5,6 +5,8 @@ var fakeData = require('./EXAMPLE_DATA');
 class BeanWebApi {
 
     // API requests using the Promise interface
+    
+    // TODO: caching data that has already been received from the server
 
     static requestBeanList() {
         var beanListPromise = new Promise(function(resolve, reject) {
