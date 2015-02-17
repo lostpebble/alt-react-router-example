@@ -1,5 +1,8 @@
 var React = require('react');
 
+// Editing beans is not implemented yet
+// Todo: Make the edit page
+
 var BeanItemEditPage = React.createClass({
     render() {
         return (

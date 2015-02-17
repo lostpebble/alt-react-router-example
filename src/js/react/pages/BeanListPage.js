@@ -18,6 +18,10 @@ var BeanListPage = React.createClass({
 
     componentDidMount() {
 
+        // Simple way of implementing a caching of sorts...
+        // Should probably be implemented properly in the
+        // Web API though, not at the view level
+
         if (!this.state.beanList.length) {
             BeanListActions.requestBeanList();
         }
