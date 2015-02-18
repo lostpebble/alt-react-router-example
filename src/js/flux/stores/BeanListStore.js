@@ -1,4 +1,5 @@
 var BeanListActions = require('../actions/BeanListActions');
+var alt = require('../alt');
 
 class BeanListStore {
     constructor() {
