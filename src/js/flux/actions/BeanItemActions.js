@@ -1,5 +1,5 @@
-alt = require('../alt');
-BeanWebAPI = require('../../api/BeanWebAPI');
+var alt = require('../alt');
+var BeanWebAPI = require('../../api/BeanWebAPI');
 
 class BeanItemActions {
 
