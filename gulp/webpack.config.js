@@ -1,7 +1,6 @@
 var webpack = require('webpack');
 
 module.exports = {
-    devtool: 'eval',
     entry: [
         './src/js/index'
     ],
