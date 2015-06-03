@@ -9,7 +9,7 @@ class BeanWebApi {
     // TODO: caching data that has already been received from the server
 
     static requestBeanList() {
-        var beanListPromise = new Promise(function(resolve, reject) {
+        return new Promise(function(resolve, reject) {
 
             setTimeout(function() {
                 resolve(fakeData.getList);
@@ -20,12 +20,10 @@ class BeanWebApi {
                 resolve(fakeData.getList);
             }, 1);*/
         });
-
-        return beanListPromise;
     }
 
     static requestBeanItem(beanID) {
-        var beanItemPromise = new Promise(function(resolve, reject) {
+        return new Promise(function(resolve, reject) {
 
             setTimeout(function() {
                 if (fakeData.getBean[beanID]) {
@@ -36,8 +34,6 @@ class BeanWebApi {
 
             }, Math.random() * 700 + 100);
         });
-
-        return beanItemPromise;
     }
 }
 

@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start" : "gulp liveserver"
+    "start": "gulp liveserver"
   },
   "author": "Paul Myburgh",
   "license": "ISC",
@@ -25,9 +25,10 @@
     "run-sequence": "^1.0.2"
   },
   "dependencies": {
-    "alt": "^0.13.2",
-    "react": "^0.12.2",
-    "react-router": "^0.11.6",
-    "webpack": "^1.5.3"
+    "alt": "^0.16.7",
+    "node-libs-browser": "^0.5.2",
+    "react": "^0.13.3",
+    "react-router": "^0.13.3",
+    "webpack": "^1.9.10"
   }
 }

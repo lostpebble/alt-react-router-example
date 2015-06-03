@@ -10,12 +10,8 @@ var BeanListItem = React.createClass({
 
         return(
             <Link to='beanItemPage' params={{beanID: this.props.bean.bean_id}}>
-                <li style={itemStyle}
-                    className="bean-list-item"
-                    key={this.props.bean.bean_id}>
-
-                        {this.props.bean.bean_name}
-
+                <li style={itemStyle} className="bean-list-item" key={this.props.bean.bean_id}>
+                    {this.props.bean.bean_name}
                 </li>
             </Link>
         )

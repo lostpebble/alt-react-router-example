@@ -7,7 +7,7 @@ var BeanItemEditPage = React.createClass({
     render() {
         return (
             <div>
-                <h2>e.d.i.t.i.n.g bean</h2>
+                <h2>e.d.i.t.i.n.g bean : {this.props.params.beanID}</h2>
             </div>
         );
     }
