@@ -15,7 +15,7 @@ var autoprefixerCompatibility =
 
 gulp.task('styles', function() {
     return gulp.src('src/sass/styles.scss')
-        .pipe(sass({ style: 'expanded', "sourcemap=none": true }))
+        .pipe(sass({ style: 'expanded', sourcemap: false }))
         .pipe(autoprefixer({browsers: autoprefixerCompatibility, cascade: false}))
         .pipe(gulp.dest('public/stylesheets'))
         .pipe(rename({suffix: '.min'}))
